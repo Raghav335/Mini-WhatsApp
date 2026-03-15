@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mini WhatsApp</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+Mini WhatsApp 💬
+</header>
+
+<div id="login">
+<input type="text" id="username" placeholder="Enter your name">
+<button onclick="startChat()">Start Chat</button>
+</div>
+
+<div id="chatArea">
+
+<div id="messages"></div>
+
+<div class="sendBox">
+
+<input type="text" id="msg" placeholder="Type message">
+
+<button onclick="sendMessage()">Send</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
